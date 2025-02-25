@@ -4,7 +4,7 @@
 cd ~/love-messages || exit
 git pull origin main > /dev/null 2>&1
 
-messages=("Test me if you see this!")
+messages=("Text me if you see this!")
 
 # Get a random message
 random_message=${messages[RANDOM % ${#messages[@]}]}
