@@ -3,7 +3,8 @@
 # Array of message
 cd ~/love-messages || exit
 git pull origin main > /dev/null 2>&1
-messages=("I love you")
+
+messages=("Test me if you see this!")
 
 # Get a random message
 random_message=${messages[RANDOM % ${#messages[@]}]}
