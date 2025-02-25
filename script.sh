@@ -1,9 +1,9 @@
 #!/bin/bash
 
-# Array of messages
+# Array of message
 cd ~/love-messages || exit
 git pull origin main > /dev/null 2>&1
-messages=("test" "hi")
+messages=("yuh")
 
 # Get a random message
 random_message=${messages[RANDOM % ${#messages[@]}]}
