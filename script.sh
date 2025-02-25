@@ -3,7 +3,7 @@
 # Array of message
 cd ~/love-messages || exit
 git pull origin main > /dev/null 2>&1
-messages=("nah")
+messages=("ajkhdsklgsd")
 
 # Get a random message
 random_message=${messages[RANDOM % ${#messages[@]}]}
